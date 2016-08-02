@@ -14,7 +14,14 @@ Template.body.events({
 
 		let noun = template.find("#noun").value;
 
-		console.log(exclamation + "! you say, as you " + adverb + " jump onto your " + noun +" and " + verb
-			+ " into the sunset.");
+		let madLib = exclamation + "! you say, as you " + adverb + " jump onto your " + noun +" and " + verb
+			+ " into the sunset.";
+
+		
+
+		$("#madLib").hide();
+		$("#madLib").text(madLib).fadeIn("slow").css("color","#0000ff");
+
 	} 
 });
+
