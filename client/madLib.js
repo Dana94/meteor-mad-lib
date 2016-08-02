@@ -2,11 +2,8 @@ Template.body.events({
 
 	'click #submitButton': (event,template) =>{
 
-	event.preventDefault();
+		event.preventDefault();
 
-	console.log("Hello, world");
-
-
-
+		console.log("Hello, world");
 	} 
 });
